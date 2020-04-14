@@ -79,7 +79,6 @@ def load_dataset(path_name):
 
     return images, labels
 
-
 if __name__ == '__main__':
     if len(sys.argv) != 1:
         print("Usage:%s path_name\r\n" % (sys.argv[0]))
